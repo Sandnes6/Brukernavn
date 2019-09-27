@@ -11,6 +11,15 @@ public class User {
     private String klubb;
     private Set<Role> roller;
 
+    public User(Long id, String brukernavn, String passord, String passordBekreftelse, String klubb, Set<Role> roller) {
+        this.id = id;
+        this.brukernavn = brukernavn;
+        this.passord = passord;
+        this.passordBekreftelse = passordBekreftelse;
+        this.klubb = klubb;
+        this.roller = roller;
+    }
+
     public Long getId() {
         return id;
     }

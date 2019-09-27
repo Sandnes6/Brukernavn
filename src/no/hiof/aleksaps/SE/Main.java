@@ -3,7 +3,7 @@ package no.hiof.aleksaps.SE;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    new User(1, Test1, )
 
 
     }
